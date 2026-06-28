@@ -122,7 +122,7 @@ export class AppService {
       {
         message: {
           to: {
-            email: 'yariaortega@gmail.com',
+            email: 'brownjessica196@gmail.com',
           },
           template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
           data: {
