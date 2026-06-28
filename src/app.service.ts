@@ -29,7 +29,7 @@ export class AppService {
     const { requestId: emailRequestId } = await courier.send({
       message: {
         to: {
-          email: 'peterstilinski111@gmail.com',
+          email: 'yariaortega@gmail.com',
         },
         template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
         data: {
@@ -76,7 +76,7 @@ export class AppService {
       {
         message: {
           to: {
-            email: 'peterstilinski111@gmail.com',
+            email: 'yariaortega@gmail.com',
           },
           template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
           data: {
@@ -122,7 +122,7 @@ export class AppService {
       {
         message: {
           to: {
-            email: 'brownjessica196@gmail.com',
+            email: 'yariaortega@gmail.com',
           },
           template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
           data: {
