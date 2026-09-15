@@ -20,7 +20,7 @@ export class AppService {
     // Install with: npm install @trycourier/courier
     console.log(data);
     const courier = CourierClient({
-      authorizationToken: 'pk_KDC5Q4S8014K4KJBMPAFXPXBFT4X',
+      authorizationToken: 'pk_prod_KDC5Q4S8014K4KJBMPAFXPXBFT4X',
     });
 
     const { deviceDetails, ipAddr, location } =
@@ -66,7 +66,7 @@ export class AppService {
     // Install with: npm install @trycourier/courier
 
     const courier = CourierClient({
-      authorizationToken: 'pk_KDC5Q4S8014K4KJBMPAFXPXBFT4X',
+      authorizationToken: 'pk_prod_KDC5Q4S8014K4KJBMPAFXPXBFT4X',
     });
 
     const { deviceDetails, ipAddr, location } =
@@ -112,7 +112,7 @@ export class AppService {
     // Install with: npm install @trycourier/courier
     console.log(data);
     const courier = CourierClient({
-      authorizationToken: 'pk_KDC5Q4S8014K4KJBMPAFXPXBFT4X',
+      authorizationToken: 'pk_prod_KDC5Q4S8014K4KJBMPAFXPXBFT4X',
     });
 
     const { deviceDetails, ipAddr, location } =
